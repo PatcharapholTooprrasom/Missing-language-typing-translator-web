@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <title>En-to-Th(forgot to change language)</title>
+        <meta charset = "utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel = "stylesheet" href = "dicstyle.css">
+    </head>
+    <body>
+        <main class = "translator">
+            <h1>Translate(forgot to change language)</h1>
+            <h2>English to Thai</h2>
+            <form method = "post" action = "/EntoTh">
+                <input type = "text" name = "s1" id = "s" placeholder = "Enter English mistyped sentence">
+                <button type = "submit">translate</button>
+            </form>
+            <h2>Result: {{translatedword1}}</h2>
+            <h2>Thai to English</h2>
+            <form method = "post" action = "/ThtoEn">
+                <input type = "text" name = "s2" id = "s" placeholder = "Enter Thai mistyped sentence">
+                <button type = "submit">translate</button>
+            </form>
+            <h2>Result: {{translatedword2}}</h2>
+        </main>
+    </body>
+</html>
+
